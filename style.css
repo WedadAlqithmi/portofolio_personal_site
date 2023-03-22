@@ -41,7 +41,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background: #1c1a19 url(images/Illustration-header.svg) 240px 180px no-repeat;
+    background: #0E1116 url(images/Illustration-header.svg) 240px 180px no-repeat;
     background-size: 150% 100%;
   }
   
@@ -104,7 +104,7 @@
   
   /* About Me Section */
   #AboutMe {
-    background-color: #1c1a19;
+    background-color: #0E1116;
     display: grid;
     grid-template: 1.8fr 0.3fr repeat(3, 1fr) / 100%;
     padding: 80px 0 60px 0;
@@ -315,7 +315,7 @@
   
   #form-button:disabled {
     background-color: #a9d8f3;
-    color: #5b5957;
+    color: #0E1116;
     border: none;
   }
   
@@ -335,7 +335,7 @@
   }
   
   input::placeholder {
-    color: #979493;
+    color: #0E1116;
   }
   
   textarea {
@@ -344,7 +344,7 @@
     margin-bottom: 24px;
     border: 0;
     padding: 5%;
-    background: #fbf8f7;
+    background: #f7f9fb;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-style: normal;
@@ -352,11 +352,11 @@
     line-height: 24px;
     letter-spacing: 0;
     text-align: left;
-    color: #3c3a39;
+    color: #0E1116;
   }
   
   textarea::placeholder {
-    color: #3c3a39;
+    color: #0E1116;
   }
   
   footer hr.footer-end {
@@ -431,7 +431,7 @@
     /* Headline Section */
     #headline {
       flex-direction: row;
-      background: #1c1a19 url(images/Illustration-header-desktop.svg) right -40px bottom 70px no-repeat;
+      background: #0E1116 url(images/Illustration-header-desktop.svg) right -40px bottom 70px no-repeat;
       background-size: contain;
       padding-top: 5%;
       padding-bottom: 5%;
@@ -613,7 +613,7 @@
       text-align: left;
       font-size: 40px;
       line-height: 52px;
-      color: #262626;
+      color: #0E1116;
       margin: 0;
       padding-top: 3%;
     }
@@ -663,7 +663,7 @@
   
   @media screen and (min-width: 600px) and (max-width: 991px) {
     #headline {
-      background: #1c1a19 url(images/Illustration-header-desktop.svg) right -40px bottom 70px no-repeat;
+      background: #0E1116 url(images/Illustration-header-desktop.svg) right -40px bottom 70px no-repeat;
       background-size: contain;
     }
   
