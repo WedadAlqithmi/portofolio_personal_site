@@ -1,47 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Wedad Portfolio website </title>
+    <!-- Title -->
+    <title>WedadAlqithmi's Portofolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <!--add an image-->
-                <img src="" class="logo" alt="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                </ul>
-            </nav>
-            <div class="heaser-text">
-                <p> UX/UI Designer</p>
-                <h1>Hi, I'm <span>Wedad</span><br> </h1>
-            </div>
-        </div>
-    </div>
-<!-- ----about--- -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <!--add an image-->
-                    <img src="" alt="">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About me</h1>
-                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</p>
-                </div>
-            </div>
+    <!-- Script -->
+    <script src="index.js" type="text/javascript" defer></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NT4Z4G92W1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NT4Z4G92W1');
+    </script>
+
+</head>
+
+<body>
+
+
+    <section id="headline">
+        <article class="flex-Description">
+            <h1 class="headline-Heading">Hey There.<br>I’m wedad</h1>
+            <h2 class="headline-subHeading">I’m a Software Developer <br> and UX/UI designer </h2>
+            <p class="headline-Text">I can help you build a product , feature or website. Look through some of my
+                work and experience! If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.</p>
+        </article>
+        <ul class="headline-Links">
+            <li><a href="https://github.com/WedadAlqithmi/WedadAlqithmi"><img src="images/github-white.png" alt="github account"></a></li>
+            <li><a href="https://www.behance.net/wedadalqithmi"><img src="images/Behance-light.png" alt="behance account"></a></li>
+            <li><a href="https://www.linkedin.com/in/wedad-al-qathmi-4a046b219/"><img src="images/Linkdln.png" alt="linkedin account"></a></li>
+            <li><a href="https://twitter.com/wedadalqthmi"><img src="images/twitter.png" alt="twitter account"></a></li>
+            
+        </ul>
+    </section>
+    <section id="AboutMe">
+        <div class="aboutme-Head">
+            <h2>About me</h2>
+            <p>I’m Wedad, from Saudi Arabia. I’ve spent my time to take any opportunity as well as developing my experience and skills to things like UI Designing, Building apps and websites, and many others. But one thing I always stick with everything is, I always do every works as my passion, and that's what makes me happy also giving myself a chance to deliver best works that i can do.</p>
+                <span class="d-flex mt-3">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--resume"
+                      href="assets/resume.pdf"
+                    >
+                      <button class="get-Resume-Button">Get My resume</button>
+                    </a>
+                    
+                  </span>
+            
         </div>
-    </div>
+
+        <hr>
+
+        <div class="Languages">
+            <div class="div-Heads">
+                <img class="skills-img li-icon-images" src="images/dimond.png" alt="">
+                <h3 class="abouth3">Languages</h3>
+            </div>
+            <ul class="aboutme-List">
+                <li>Dart</li>
+                <li>HTML, CSS, JS</li>
+                <li>Python for data analtics</li>
+                <li>Swift</li>
+            </ul>
+        </div>
+
+        <div class="Skills">
+            <div class="div-Heads">
+                <img class="skills-img li-icon-images" src="images/dimond.png" alt="">
+                <h3 class="abouth3">Skills</h3>
+            </div>
+            <ul class="aboutme-List">
+                <li>UI Design</li>
+                <li>Data Analyst</li>
+                <li>Front-End developing</li>
+
+            </ul>
+        </div>
+    </section>
+
+
+   
+
+    <footer id="Contact">
+        <section class="footer-head">
+            <h2>I'm always <br> interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </h2>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="form-button"
+              href="mailto:wedadalqithmi@email.com"
+              >
+              <button id="form-button" type="submit">Get in Touch</button>
+              </a>
+        </section>
+
+     
+        <hr class="footer-social-network">
+
+        <ul class="footer-Links">
+            <li><a href="https://github.com/WedadAlqithmi/WedadAlqithmi"><img src="images/github-dark.png" alt="github account"></a></li>
+            <li><a href="https://www.behance.net/wedadalqithmi"><img  src="images/behance-dark.png" alt="behance account"></a></li>
+            <li><a href="https://www.linkedin.com/in/wedad-al-qathmi-4a046b219/"><img src="images/linkedin-dark.png" alt="linkedin account"></a></li>
+            <li><a href="https://twitter.com/wedadalqthmi"><img src="images/twitter-dark.png" alt="twitter account"></a></li>
+    
+            </li>
+        </ul>
+
+        <hr class="footer-end">
+    </footer>
+
 </body>
+
 </html>
